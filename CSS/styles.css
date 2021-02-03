@@ -1,0 +1,112 @@
+/***Tag Selectors***/
+body{
+    margin: 0; /*Division fills whitespace*/
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    margin: 50px auto 0 auto;
+    font-size: 5rem; /*1rem = 16px, rem is dynamic and scales, always use for font-sizes*/
+    font-family: 'Pacifico', cursive;
+    color: #14ffec
+}
+h2{
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal; /*changes font weight to normal*/
+    color: white;
+    padding-bottom: 10px;
+}
+h3{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: white;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal; /*changes font weight to normal*/
+    color: white;
+    line-height: 2;
+}
+hr{
+    border: dotted #c2c9c9 6px;
+    border-bottom: none;
+    width: 10%;
+    margin: 100px auto;
+}
+a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: #13e0cf;
+}
+a:hover{ /*changes color of links when hovering over*/
+    color:white
+}
+
+/***Class Selectors***/
+.top-container{ /*Division: manipulatable box*/
+    padding-top: 50px;
+    background-color: #212121;
+}
+.middle-container{ /*Division: manipulatable box*/
+    background-color: #212121;
+    padding: 100px 0;
+}
+.bottom-container{ /*Division: manipulatable box*/
+    background-color: #0d7377;
+    padding: 30px 0 16px;
+}
+/*4 Display Values: Inline-Block(best one), Inline, Block, None*/
+/*4 Positions: Usually use combo of realtive and asolute
+Static(default), 
+Relative(margin relative to where element was last, coordinates: top, bottom, left, right), 
+Absolute(margin relative to the parent element, coordinates: top, bottom, left, right), 
+Fixed (sidebar/navbar, stays fixed in a position relative to website)*/
+.intro{
+    width: 20%;
+    margin: auto;
+}
+.top-cloud{
+    position: relative;
+    left: 400px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 350px;
+}
+.skill-row{
+    width: 50%;
+    margin: 200px auto 200px;
+    text-align: left;
+}
+.first-icon{
+    width: 25%;
+    float: left; /*Float use to rap text around element (never use for positioning), clear does the opposite*/
+    margin-right: 30px;
+}
+.second-icon{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.copyright{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal; /*changes font weight to normal*/
+    color: white;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+/***ID Selectors***/
+#profile{
+  border-radius: 50%; /*Makes image circular*/
+}
+#subhead{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal; /*changes font weight to normal*/
+    color: #13e0cf
+}
